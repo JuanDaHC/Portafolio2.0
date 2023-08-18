@@ -4,7 +4,7 @@ import styles from "./home.module.css"
 const Home: React.FC = () => {
     return(
         <section className={styles.home}>
-            Home
+            <h1>Home</h1>
         </section>
     )
 }
