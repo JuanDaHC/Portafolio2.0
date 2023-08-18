@@ -1,0 +1,14 @@
+.home{
+    width: 100%;
+    min-height: 92vh;
+    padding: 5vh 8%;
+    display: flex;
+}
+
+.home .full{
+    width: 50%;
+}
+
+.home .jamy{
+    width: 50%;
+}
