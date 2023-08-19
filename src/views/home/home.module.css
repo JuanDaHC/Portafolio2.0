@@ -3,12 +3,38 @@
     min-height: 92vh;
     padding: 5vh 8%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
 }
 
 .home .full{
     width: 50%;
+    margin-top: 12vh;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .home .jamy{
-    width: 50%;
+    width: auto;
+    height: 400px;
+    margin-top: 12vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
 }
+
+.home  h2{
+    color: rgb(0, 145, 255);
+    font-size: 44px;
+}
+
+.home .full p{
+    max-width: 400px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
