@@ -2,7 +2,7 @@ import styles from './animacionOne.module.css'
 
 const AnimacionOne = () => {
     return (
-        <div className={styles.Animacion}>
+        <div className={`${styles.Animacion} `}>
             <div className={styles.loader2}>
                 <div className={styles.first}>
                     <div className={styles.second}>

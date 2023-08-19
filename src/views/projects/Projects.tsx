@@ -18,15 +18,15 @@ const Projects = () => {
           return (
             <div className={`${styles.card}`} key={card.id}>
               <div className={styles.removewhenuse}>
-                <img src={card.image[0]} alt="" />
+                <img className={styles.img} src={card.image[0]} alt="" />
               </div>
               <span className={styles.details}>
-                <label>{card.name}</label>
-                <div>
-                  <a href={card.urlGithub}><img src={github} alt="" /></a>
-                  <a href={card.url}><img src={url} alt="" /></a>
+                <h4>{card.name}</h4>
+                <div className={styles.links}>
+                  <a target="_blank" href={card.urlGithub}><img src={github} alt="" /></a>
+                  <a target="_blank" href={card.url}><img src={url} alt="" /></a>
                 </div>
-              </span>
+              </span> 
             </div>
           );
         })}
