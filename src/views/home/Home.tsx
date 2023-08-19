@@ -4,6 +4,7 @@ import pin from '../../assets/pin.svg'
 import message from '../../assets/message.svg'
 import share from '../../assets/share.svg'
 import Buttons from "../../components/buttoons/Buttons";
+import AnimacionOne from "../../components/animations/animationOne/AnimationOne";
 
 const Home: React.FC = () => {
   return (
@@ -38,6 +39,7 @@ const Home: React.FC = () => {
         <Buttons url="" title="GMAIL" />
         <Buttons url="" title="CV"/>
       </article>
+      <AnimacionOne/>
     </section>
   );
 };
