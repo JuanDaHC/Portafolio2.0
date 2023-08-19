@@ -3,7 +3,6 @@ import barberia from "./assets/barberia.webp";
 import books from "./assets/books.webp";
 import dominios from "./assets/Dominios.webp";
 import tudestino from "./assets/img7.webp";
-import jamy from "./assets/Jamy.webp";
 import kfc from "./assets/kfc.webp";
 import mui from "./assets/mui.png";
 import porta2 from "./assets/porta2.webp";
