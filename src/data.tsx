@@ -35,19 +35,17 @@ const cards = [
     url: "https://minotauro18.github.io/TuDestino/",
     urlGithub: "https://github.com/MINOTAURO18/TuDestino",
   },
-
   {
     id: 3,
-    name: "Copia_MUI",
-    image: [mui],
-    tecno: [react, sass, css],
-    descrip: "copy of the MUI home page",
-    url: "https://minotauro18.github.io/Copia-MUI/",
-    urlGithub: "https://github.com/MINOTAURO18/Copia-MUI",
-    youtube: true,
-    youtubeUrl: "https://www.youtube.com/watch?v=YYG6sy8t-t8&t=6346s",
+    name: "Template-Portafolio",
+    image: [portatailwind],
+    tecno: [react, tailwind, css],
+    descrip: "Practice with React, State Management, Filters and Dark Mode.",
+    url: "#",
+    urlGithub: "https://github.com/MINOTAURO18/porta-tailwind",
   },
 
+  
   {
     id: 4,
     name: "Template-Portafolio",
@@ -71,16 +69,18 @@ const cards = [
     urlGithub: "https://github.com/MINOTAURO18/Books",
   },
 
+
   {
     id: 6,
-    name: "Template-Portafolio",
-    image: [portatailwind],
-    tecno: [react, tailwind, css],
-    descrip: "Practice with React, State Management, Filters and Dark Mode.",
-    url: "#",
-    urlGithub: "https://github.com/MINOTAURO18/porta-tailwind",
+    name: "Copia_MUI",
+    image: [mui],
+    tecno: [react, sass, css],
+    descrip: "copy of the MUI home page",
+    url: "https://minotauro18.github.io/Copia-MUI/",
+    urlGithub: "https://github.com/MINOTAURO18/Copia-MUI",
+    youtube: true,
+    youtubeUrl: "https://www.youtube.com/watch?v=YYG6sy8t-t8&t=6346s",
   },
-
   {
     id: 7,
     name: "DominiosYa",
@@ -105,7 +105,7 @@ const cards = [
     id: 9,
     name: "Template-Portafolio",
     image: [porta2],
-    tecno: [html, css,js],
+    tecno: [html, css, js],
     descrip:
       "Portfolio created by JAMY, so you have a place to show your projects to the world.",
     url: "https://minotauro18.github.io/pagina-2/",

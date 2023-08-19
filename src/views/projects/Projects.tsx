@@ -11,12 +11,17 @@ const Projects = () => {
         <img className="w-7" src={arrow} alt="flecha" />
       </span>
 
-      <article className={`${styles.cards}`}>
-        {data.map((card, index) => {
+      <article className={`${styles.cards} ${styles.containerimg}`}>
+        {data.map((card) => {
           return (
-            <article className={`${styles.card}`} key={card.id}>
-              <img className={styles.img} src={card.image[0]} />
-              <h3>{card.name}</h3>
+            <div className={`${styles.card} ${styles.boximg}`} key={card.id}>
+              <a href="#">
+                <figure>
+                  <img src={card.image[0]} alt="" />
+                </figure>
+              </a>
+              
+              {/* <h3>{card.name}</h3>
               <p>{card.descrip}</p>
               <div key={index} className="flex">
                 {card.tecno.map((tec) => {
@@ -25,9 +30,10 @@ const Projects = () => {
               </div>
               <div>
                 <a href={card.url}>URL</a>
-                <a href={card.urlGithub}>GITHUB</a>
-              </div>
-            </article>
+                <a href={card.urlGithub}>GITHUB</a> 
+              </div> */}
+            
+            </div>
           );
         })}
       </article>
