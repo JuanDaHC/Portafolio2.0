@@ -7,6 +7,7 @@ import Buttons from "../../components/buttoons/Buttons";
 import AnimacionOne from "../../components/animations/animationOne/AnimationOne";
 
 const Home: React.FC = () => {
+  
   return (
     <section className={styles.home}>
       <article className={styles.full}>

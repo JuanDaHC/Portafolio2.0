@@ -3,21 +3,22 @@ import arrow from "../../assets/arrow.svg";
 import data from "../../data";
 
 const Projects = () => {
+  
   return (
     <section className={styles.projects}>
       <span className="flex  items-center gap-2">
-        <h2 className="text-2xl text-primary-color font-bold">Projectssa</h2>
+        <h2 className="text-2xl text-primary-color font-bold">Projects</h2>
         <img className="w-7" src={arrow} alt="flecha" />
       </span>
 
-      <article className={styles.cards}>
-        {data.map((card) => {
+      <article className={`${styles.cards}`}>
+        {data.map((card, index) => {
           return (
-            <article className={styles.card} key={card.id}>
+            <article className={`${styles.card}`} key={card.id}>
               <img className={styles.img} src={card.image[0]} />
               <h3>{card.name}</h3>
               <p>{card.descrip}</p>
-              <div>
+              <div key={index} className="flex">
                 {card.tecno.map((tec) => {
                   return <img src={tec} alt="" />;
                 })}
