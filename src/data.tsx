@@ -1,5 +1,4 @@
 import mundodev from "./assets/mundodev.webp";
-import barberia from "./assets/barberia.webp";
 import books from "./assets/books.webp";
 import dominios from "./assets/Dominios.webp";
 import tudestino from "./assets/img7.webp";
