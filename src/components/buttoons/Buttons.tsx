@@ -5,7 +5,7 @@ interface buttonProps {
     title: string;
     url: string;
   }
-  
+   
   const Buttons: React.FC<buttonProps> = ({ title, url }) => {
     return (
       <a href={url} className={styles.button}>

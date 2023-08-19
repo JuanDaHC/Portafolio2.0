@@ -1,10 +1,19 @@
 import React from "react";
 import styles from "./nav.module.css";
-import sun from "../../assets/sun.svg"
+import sun from "../../assets/sun.svg";
+import moon from "../../assets/moon.svg";
 
-const Nav: React.FC = () => {
+interface NavProps {
+  lightMode: boolean;
+  setLightMode: React.Dispatch<React.SetStateAction<boolean>>;
+}
+const Nav: React.FC<NavProps> = ({lightMode, setLightMode}) => {
+
+  const light = () => {
+    lightMode === false ? setLightMode(true) : setLightMode(false)
+  }
   return (
-    <header className={styles.menu}>
+    <header className={`${styles.menu} ${lightMode === true ? styles.white : styles.dark} `}>
       <nav className={styles.nav}>
         <h1 className={styles.logo}>JAMY</h1>
         <div className="flex gap-8 font-bold text-lg">
@@ -15,9 +24,12 @@ const Nav: React.FC = () => {
             <span>P</span>rojects
           </a>
           <a>
+            <span>S</span>ervicios
+          </a>
+          <a>
             <span>A</span>bout
           </a>
-            <img className="w-7" src={sun} alt="sun" />
+            <img onClick={light} className="w-7" src={lightMode === false ? sun : moon} alt="sun" />
         </div>
       </nav>
     </header>
