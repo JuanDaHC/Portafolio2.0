@@ -10,14 +10,14 @@
 .projects .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
-  gap: 30px;
+  gap: 35px;
 }
 
 .projects .cards .card {
   position: relative;
-  width: 320px;
+  width: 300px;
   height: auto;
 }
 .projects .cards .card:nth-child(2) {

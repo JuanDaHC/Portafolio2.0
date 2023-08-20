@@ -66,21 +66,27 @@ const Tecnologies = [
 const Services = () => {
   return (
     <section className={styles.services}>
-      <article className={styles.tecno}>
-        <span className="flex items-center">
-          <h2 className="text-2xl text-primary-color font-bold">Tecnologies</h2>
-          <img className="w-7" src={arrow} alt="" />
-        </span>
-        <div className="flex">
+      <span className="flex items-center">
+        <h2 className="text-2xl text-primary-color font-bold">Services</h2>
+        <img className="w-7" src={arrow} alt="" />
+      </span>
+      <div className={styles.servicesContainer}>
+        <article className={styles.tecnology}>
+          <div className={`${styles.tecno}`}>
             {Tecnologies.map((tecno, index) => (
               <div className="w-14" key={index}>
                 <img src={tecno.tecno} alt={tecno.name} />
                 <h6>{tecno.name}</h6>
               </div>
             ))}
-        </div>
-      </article>
-      <article className={styles.ser}></article>
+          </div>
+        </article>
+        <article className={styles.cards}>
+          <div className={`${styles.card} ${styles.blue}`}></div>
+          <div className={`${styles.card} ${styles.blue}`}></div>
+          <div className={`${styles.card} ${styles.blue}`}></div>
+        </article>
+      </div>
     </section>
   );
 };

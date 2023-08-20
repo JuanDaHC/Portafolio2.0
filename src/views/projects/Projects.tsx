@@ -5,7 +5,7 @@ import github from '../../assets/github.svg'
 import url from '../../assets/url.svg'
 
 
-const Projects = () => {
+const Projects = () => { 
   return (
     <section className={styles.projects}>
       <span className="flex  items-center gap-2">

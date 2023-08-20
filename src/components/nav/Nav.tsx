@@ -24,7 +24,7 @@ const Nav: React.FC<NavProps> = ({lightMode, setLightMode}) => {
             <span>P</span>rojects
           </a>
           <a>
-            <span>S</span>ervicios
+            <span>S</span>ervices
           </a>
           <a>
             <span>A</span>bout

@@ -1,6 +1,67 @@
-.services{
-    width: 100%;
-    min-height: 92vh;
-    padding: 5vh 8%;
+.services {
+  width: 100%;
+  min-height: 92vh;
+  padding: 5vh 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
+.servicesContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.tecnology{
+  max-width: 500px;
+}
+
+.tecnology .tecno{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+.cards {
+    height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.cards .blue {
+  background-color: rgb(0, 145, 255);
+}
+
+.cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+
+.cards .card:hover {
+  transform: scale(1.02, 1.02);
+}
+
+.cards:hover > .card:not(:hover) {
+  filter: blur(1px);
+  transform: scale(0.9, 0.9);
+}
