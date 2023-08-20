@@ -10,7 +10,7 @@ const Home: React.FC = () => {
   
   return (
     <section className={styles.home}>
-      <article className={`${styles.full} animate-jump animate-once`}>
+      <article className={`${styles.full}`}>
         <h2 className="font-bold">Full Stack Developer</h2>
         <p>
           Programmer with focus on web application development, I have skills in
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
           </span>
         </div>
       </article>
-      <article className={`${styles.jamy} animate-jump animate-once`}>
+      <article className={`${styles.jamy}`}>
         <h2 className="font-bold text-center">Alexander Muñoz</h2>
         <Buttons url="" title="GMAIL" />
         <Buttons url="" title="CV"/>
