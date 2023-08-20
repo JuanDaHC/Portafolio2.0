@@ -11,8 +11,6 @@ import react from '../../assets/react.svg'
 import redux from '../../assets/redux.svg'
 import arrow from '../../assets/arrow.svg'
 
-const tecnologies = [html, css, typescrip,react, python, mongo, redux,node, sass,tailwin]
-const names = ['HTML','CSS', 'TYPESCRIP', 'REACT', 'PYTHON', 'MONGO', 'REDUX', 'NODE.JS', 'SASS', 'TAILWIND']
 
 const Services = () => {
     return (
@@ -23,18 +21,7 @@ const Services = () => {
                     <img className='w-7' src={arrow} alt="" />
                 </span>
                 <div className='flex'>
-                    {
-                        tecnologies.map((item, index) => {
-                            return (
-                                <div className={`${styles.tecnoItem}`} key={index}>
-                                    <img className='w-14' src={item} alt="" />
-                                    <span>
-                                      
-                                    </span>
-                                </div>
-                            )
-                        })
-                    }
+                    
                 </div>
             </article>
             <article className={styles.ser}>
