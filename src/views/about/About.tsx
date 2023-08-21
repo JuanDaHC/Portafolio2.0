@@ -8,13 +8,18 @@ import alex from "../../assets/alex.webp";
 const About = () => {
   return (
     <section className={`${styles.about}`}>
-        <span className="flex items-center gap-1" >
-            <h2 className="text-2xl text-primary-color font-bold">About</h2>
-            <img className="w-7" src={arrow} alt="" />
-        </span>
-      <div>
-        <article>
-          <img className={styles.img} src={alex} alt="" />
+      <span className="flex items-center gap-1">
+        <h2 className="text-2xl text-primary-color font-bold">About</h2>
+        <img className="w-7" src={arrow} alt="" />
+      </span>
+      <div className={styles.aboutMe}>
+        <article className={styles.me}>
+          <img
+            className={`${styles.img} m-auto hover:animate-wiggle-more animate-once
+`}
+            src={alex}
+            alt=""
+          />
           <p>
             Hello, My name is John Alexander Muñoz Yepez. I love technology and
             sports, the latter is where I acquired my discipline and
@@ -39,7 +44,27 @@ const About = () => {
             </span>
           </div>
         </article>
-        <article></article>
+        <article className={styles.cards}>
+          <div className={`${styles.card} ${styles.blue}`}>
+            <p className={styles.tip}>Hover Me</p>
+            <p className={styles.secondText}>Lorem Ipsum</p>
+          </div>
+
+          <div className={`${styles.card} ${styles.blue}`}>
+            <p className={styles.tip}>Hover Me</p>
+            <p className={styles.secondText}>Lorem Ipsum</p>
+          </div>
+
+          <div className={`${styles.card} ${styles.blue}`}>
+            <p className={styles.tip}>Hover Me</p>
+            <p className={styles.secondText}>Lorem Ipsum</p>
+          </div>
+
+          <div className={`${styles.card} ${styles.blue}`}>
+            <p className={styles.tip}>Hover Me</p>
+            <p className={styles.secondText}>Lorem Ipsum</p>
+          </div>
+        </article>
       </div>
     </section>
   );
