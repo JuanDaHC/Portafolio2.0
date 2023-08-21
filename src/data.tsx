@@ -43,6 +43,8 @@ const cards = [
     descrip: "Practice with React, State Management, Filters and Dark Mode.",
     url: "#",
     urlGithub: "https://github.com/MINOTAURO18/porta-tailwind",
+    youtube: true,
+    youtubeUrl: "https://www.youtube.com/watch?v=VmWCzcA5rrs&t=40s",
   },
 
   

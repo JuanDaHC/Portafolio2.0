@@ -3,11 +3,13 @@ import arrow from "../../assets/arrow.svg";
 import data from "../../data";
 import github from '../../assets/github.svg'
 import url from '../../assets/url.svg'
+import youtube from '../../assets/youtube.svg'
+
 
 
 const Projects = () => { 
   return (
-    <section className={styles.projects}>
+    <section className={styles.projects}> 
       <span className="flex  items-center gap-1">
         <h2 className="text-2xl text-primary-color font-bold">Projects</h2>
         <img className="w-7" src={arrow} alt="flecha" />
@@ -25,6 +27,10 @@ const Projects = () => {
                 <div className={styles.links}>
                   <a target="_blank" href={card.urlGithub}><img src={github} alt="" /></a>
                   <a target="_blank" href={card.url}><img src={url} alt="" /></a>
+                  {
+
+                   card.youtube === true ? <a target="_blank" href={card.youtube === true ? card.youtubeUrl : undefined}><img src={card.youtube === true ? youtube : undefined} alt="" /></a> : null
+                  }
                 </div>
               </span> 
             </div>
