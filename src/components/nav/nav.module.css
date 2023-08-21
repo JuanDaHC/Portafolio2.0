@@ -52,4 +52,12 @@
   .menu .mobile{
     display: flex;
   }
+
+  .menu .nav .logo{
+    font-size: 20px;
+  }
+
+  .nave{
+    gap: 20px;
+  }
 }

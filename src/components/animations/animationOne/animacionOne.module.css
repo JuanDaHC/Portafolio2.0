@@ -194,3 +194,9 @@
       height: 1em
     }
   }
+
+@media (width < 1000px) {
+  .Animacion{
+    top: 55vh;
+  }
+}
