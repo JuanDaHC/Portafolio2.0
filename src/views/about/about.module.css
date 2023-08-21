@@ -1,7 +1,8 @@
 .about {
+    position: relative;
   width: 100%;
   min-height: 92vh;
-  padding: 2vh 8%;
+  padding: 5vh 8% 3vh 8%;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -17,7 +18,7 @@
 }
 
 .about .img {
-  width: 250px;
+  width: 220px;
   border-radius: 50%;
   border: 2px solid rgb(0, 145, 255);
 }
@@ -52,7 +53,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 90px;
+  height: 80px;
   width: 400px;
   border-radius: 10px;
   color: white;
@@ -73,7 +74,3 @@
   transform: scale(1.02, 1.02);
 }
 
-.cards:hover > .card:not(:hover) {
-  filter: blur(.2px);
-  transform: scale(0.98, 0.98);
-}

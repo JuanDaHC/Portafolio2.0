@@ -4,6 +4,8 @@ import pin from "../../assets/pin.svg";
 import message from "../../assets/message.svg";
 import share from "../../assets/share.svg";
 import alex from "../../assets/alex.webp";
+import AnimationTwo from "../../components/animations/animationTwo/AnimationTwo";
+import Footer from "../../components/footer/Footer";
 
 const About = () => {
   return (
@@ -46,26 +48,28 @@ const About = () => {
         </article>
         <article className={styles.cards}>
           <div className={`${styles.card} ${styles.blue}`}>
-            <p className={styles.tip}>Hover Me</p>
-            <p className={styles.secondText}>Lorem Ipsum</p>
+            <p className={styles.tip}>Udemy</p>
+            <p className={styles.secondText}>React, Node.js, Javascript</p>
           </div>
 
           <div className={`${styles.card} ${styles.blue}`}>
-            <p className={styles.tip}>Hover Me</p>
-            <p className={styles.secondText}>Lorem Ipsum</p>
+            <p className={styles.tip}>Universidad Of Antioquia</p>
+            <p className={styles.secondText}>in progress</p>
           </div>
 
           <div className={`${styles.card} ${styles.blue}`}>
-            <p className={styles.tip}>Hover Me</p>
-            <p className={styles.secondText}>Lorem Ipsum</p>
+            <p className={styles.tip}>Frecodecamp</p>
+            <p className={styles.secondText}>HTML, CSS, SASS</p>
           </div>
 
           <div className={`${styles.card} ${styles.blue}`}>
-            <p className={styles.tip}>Hover Me</p>
-            <p className={styles.secondText}>Lorem Ipsum</p>
+            <p className={styles.tip}>OpenBootcamp</p>
+            <p className={styles.secondText}>Python, SQL</p>
           </div>
         </article>
       </div>
+      <Footer/>
+      <AnimationTwo />
     </section>
   );
 };
