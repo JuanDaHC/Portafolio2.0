@@ -31,7 +31,7 @@ function App() {
       </div>
 
       <div id="about" className="section">
-        <About />
+        <About lightMode={lightMode} />
       </div>
       <Redes />
     </main>

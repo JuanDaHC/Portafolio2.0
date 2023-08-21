@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./about.module.css";
 import arrow from "../../assets/arrow.svg";
 import pin from "../../assets/pin.svg";
@@ -7,7 +8,11 @@ import alex from "../../assets/alex.webp";
 import AnimationTwo from "../../components/animations/animationTwo/AnimationTwo";
 import Footer from "../../components/footer/Footer";
 
-const About = () => {
+interface AboutProps {
+  lightMode: boolean;
+}
+
+const About: React.FC<AboutProps> = ({lightMode}) => {
   return (
     <section className={`${styles.about}`}>
       <span className="flex items-center gap-1">
@@ -68,8 +73,8 @@ const About = () => {
           </div> 
         </article>
       </div>
-      <Footer/>
-      <AnimationTwo />
+      <Footer  lightMode={lightMode} />
+      <AnimationTwo lightMode={lightMode} />
     </section>
   );
 };
