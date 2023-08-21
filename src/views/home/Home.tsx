@@ -37,8 +37,8 @@ const Home: React.FC = () => {
       </article>
       <article className={`${styles.jamy}`}>
         <h2 className="font-bold text-center z-20">Alexander Muñoz</h2>
-        <Buttons url="" title="GMAIL" />
-        <Buttons url="" title="CV"/>
+        <Buttons url="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSHxjQCvzsDSFMjbMznTjRBjbpJZFZmltSXxFDNvCBJbMdXfxNMXkCrWbPZRNnmcRZmdVmJM" title="GMAIL" />
+        <Buttons url="https://drive.google.com/file/d/1fsLDnhIrlZqY1i3r2WeER9PSeKB9sj5X/view?usp=sharing" title="CV"/>
       </article>
       <AnimacionOne/>
     </section>

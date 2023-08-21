@@ -35,10 +35,10 @@ const Nav: React.FC<NavProps> = ({lightMode, setLightMode, scrollToSection}) => 
             <span>A</span>bout
           </a>
 
-          <a className={`${styles.mobile}`}><img className="w-6" src={home} alt="" /></a>
-          <a className={`${styles.mobile}`}><img className="w-6" src={projects} alt="" /></a>
-          <a className={`${styles.mobile}`}><img className="w-6" src={services} alt="" /></a>
-          <a className={`${styles.mobile}`}><img className="w-6" src={about} alt="" /></a>
+          <a onClick={() => scrollToSection('home')} className={`${styles.mobile}`}><img className="w-6" src={home} alt="" /></a>
+          <a onClick={() => scrollToSection('projects')} className={`${styles.mobile}`}><img className="w-6" src={projects} alt="" /></a>
+          <a onClick={() => scrollToSection('services')} className={`${styles.mobile}`}><img className="w-6" src={services} alt="" /></a>
+          <a onClick={() => scrollToSection('about')} className={`${styles.mobile}`}><img className="w-6" src={about} alt="" /></a>
             <img onClick={light} className="w-7" src={lightMode === false ? sun : moon} alt="sun" />
         </div>
       </nav>

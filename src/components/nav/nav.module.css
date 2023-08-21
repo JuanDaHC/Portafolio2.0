@@ -39,6 +39,12 @@
   color: rgb(0, 145, 255);
 }
 
+.menu .nav a:hover{
+  color: rgb(0, 145, 255);
+  transition: all 0.2s ease-in-out;
+  
+}
+
 .menu .nav .logo {
   font-size: 28px;
   font-weight: 700;
