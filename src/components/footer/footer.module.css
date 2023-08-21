@@ -8,3 +8,9 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media (width < 500px) {
+    .header span{
+        font-size: 12px;
+    }
+}

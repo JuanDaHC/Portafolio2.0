@@ -17,7 +17,7 @@ const About = () => {
       <div className={styles.aboutMe}>
         <article className={styles.me}>
           <img
-            className={`${styles.img} m-auto hover:animate-wiggle-more animate-once
+            className={`${styles.img} z-10 m-auto hover:animate-wiggle-more animate-once
 `}
             src={alex}
             alt=""
