@@ -16,7 +16,7 @@
   gap: 50px;
 }
 .tecnology{
-  max-width: 600px;
+  max-width: 650px;
 }
 
 .tecnology .tecno{
@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 35px;
   flex-wrap: wrap;
 }
 
@@ -45,16 +45,20 @@
 
 .cards .card {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
+  gap: 15px;
   height: 150px;
   width: 300px;
+  padding: 10px 10px;
   border-radius: 10px;
   color: white;
   cursor: pointer;
   transition: 400ms;
 }
+
+
 
 
 .cards .card:hover {

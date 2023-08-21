@@ -10,6 +10,10 @@ import mongo from "../../assets/mongo.svg";
 import react from "../../assets/react.svg";
 import redux from "../../assets/redux.svg";
 import arrow from "../../assets/arrow.svg";
+import code from "../../assets/code.svg";
+import desing from "../../assets/desing.svg";
+import web from "../../assets/web.svg";
+
 
 const Tecnologies = [
   {
@@ -74,17 +78,17 @@ const Services = () => {
         <article className={styles.tecnology}>
           <div className={`${styles.tecno}`}>
             {Tecnologies.map((tecno, index) => (
-              <div className="w-14" key={index}>
+              <div className="w-14 flex flex-col justify-center items-center hover:animate-pulse animate-once" key={index}>
                 <img src={tecno.tecno} alt={tecno.name} />
-                <h6>{tecno.name}</h6>
+                <h6>{tecno.name}</h6> 
               </div>
             ))}
           </div>
         </article>
-        <article className={styles.cards}>
-          <div className={`${styles.card} ${styles.blue}`}>Development of specific solutions for your modern web applications.</div>
-          <div className={`${styles.card} ${styles.blue}`}></div>
-          <div className={`${styles.card} ${styles.blue}`}></div>
+        <article className={`${styles.cards}`}>
+          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={code} alt="" /> <span>Development of specific solutions for your modern web applications.</span></div>
+          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={web} alt="" /> <span>Tailored technological projects expertly adapted to your specific needs.</span></div>
+          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={desing} alt="" /> <span>Ensuring responsive design for seamless experiences across all devices.</span></div>
         </article>
       </div>
     </section>

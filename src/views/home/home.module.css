@@ -9,7 +9,7 @@
 
 .home .full{
     width: 50%;
-    margin-top: 9vh;
+    margin-top: 12vh;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
 .home .jamy{
     width: auto;
     height: 400px;
-    margin-top: 9vh;
+    margin-top: 12vh;
     display: flex;
     align-items: center;
     flex-direction: column;

@@ -19,6 +19,8 @@
   position: relative;
   width: 300px;
   height: auto;
+  border: 1px solid rgb(0, 145, 255);
+  border-radius: 8px;
 }
 .projects .cards .card:nth-child(2) {
   grid-column-start: span 2;
@@ -49,10 +51,11 @@
   height: 2.6em;
   transition: height 0.5s ease-in-out;
   padding: 0.6em;
+  border-radius: 0 0 9px 9px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 12px;
 }
 
 .details h4 {
@@ -60,7 +63,7 @@
 }
 
 .card:hover > .details {
-  height: 6.7em;
+  height: 5.5em;
 }
 
 .details .links {
@@ -68,7 +71,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 2px;
 }
 
 .details .links a {

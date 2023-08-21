@@ -7,10 +7,10 @@ import styles from './redes.module.css'
 const Redes = () => {
     return (
         <article className={styles.redes}>
-            <a className={styles.linkedin} href="#"><img src={linkedin} alt="logo de linkedin" /></a>
-            <a className={styles.github} href="#"><img src={github} alt="logo de github" /></a>
-            <a className={styles.youtube} href="#"><img src={youtube} alt="logo de youtube" /></a>
-            <a className={styles.instagram} href="#"><img src={instram} alt="logo de instagram" /></a>
+            <a className={`${styles.linkedin} hover:animate-pulse animate-once`} href="#"><img src={linkedin} alt="logo de linkedin" /></a>
+            <a className={`${styles.github} hover:animate-pulse animate-once`} href="#"><img src={github} alt="logo de github" /></a>
+            <a className={`${styles.youtube} hover:animate-pulse animate-once`} href="#"><img src={youtube} alt="logo de youtube" /></a>
+            <a className={`${styles.instagram} hover:animate-pulse animate-once`} href="#"><img src={instram} alt="logo de instagram" /></a>
         </article>
     )
 }
