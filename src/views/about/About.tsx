@@ -65,7 +65,7 @@ const About = () => {
           <div className={`${styles.card} ${styles.blue}`}>
             <p className={styles.tip}>OpenBootcamp</p>
             <p className={styles.secondText}>Python, SQL</p>
-          </div>
+          </div> 
         </article>
       </div>
       <Footer/>
