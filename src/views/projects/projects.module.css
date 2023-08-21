@@ -1,7 +1,7 @@
 .projects {
   width: 100%;
   min-height: 92vh;
-  padding: 5vh 8%;
+  padding: 12vh 8%;
   display: flex;
   flex-direction: column;
   gap: 50px;
