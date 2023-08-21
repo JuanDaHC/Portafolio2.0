@@ -2,6 +2,10 @@ import React from "react";
 import styles from "./nav.module.css";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
+import home from "../../assets/home.svg";
+import projects from "../../assets/projects.svg";
+import services from "../../assets/services.svg";
+import about from "../../assets/about.svg";
 
 interface NavProps {
   lightMode: boolean;
@@ -30,6 +34,11 @@ const Nav: React.FC<NavProps> = ({lightMode, setLightMode, scrollToSection}) => 
           <a onClick={() => scrollToSection('about')}>
             <span>A</span>bout
           </a>
+
+          <a className={`${styles.mobile}`}><img className="w-6" src={home} alt="" /></a>
+          <a className={`${styles.mobile}`}><img className="w-6" src={projects} alt="" /></a>
+          <a className={`${styles.mobile}`}><img className="w-6" src={services} alt="" /></a>
+          <a className={`${styles.mobile}`}><img className="w-6" src={about} alt="" /></a>
             <img onClick={light} className="w-7" src={lightMode === false ? sun : moon} alt="sun" />
         </div>
       </nav>

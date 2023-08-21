@@ -36,7 +36,7 @@ const Home: React.FC = () => {
         </div>
       </article>
       <article className={`${styles.jamy}`}>
-        <h2 className="font-bold text-center">Alexander Muñoz</h2>
+        <h2 className="font-bold text-center z-20">Alexander Muñoz</h2>
         <Buttons url="" title="GMAIL" />
         <Buttons url="" title="CV"/>
       </article>

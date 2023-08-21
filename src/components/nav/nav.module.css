@@ -8,8 +8,12 @@
   z-index: 9;
 }
 
+.menu .mobile{
+  display: none;
+}
+
 .white {
-  background-color: rgb(236, 239, 242);
+  background-color: rgb(211, 222, 235);
   color: black;
   opacity: 0.95;
   transition: all 0.2s ease-in;
@@ -38,4 +42,14 @@
   font-size: 28px;
   font-weight: 700;
   color: rgb(0, 145, 255);
+}
+
+@media (width < 700px){
+  .menu a{
+    display: none;
+  }
+
+  .menu .mobile{
+    display: flex;
+  }
 }

@@ -35,7 +35,7 @@ body::-webkit-scrollbar{
   }
 
 .white{
-  background-color: rgb(236, 239, 242);
+  background-color: rgb(211, 222, 235);
   color: rgb(0, 0, 0);
   transition: all 0.2s ease-in-out;
 }

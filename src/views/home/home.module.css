@@ -37,3 +37,14 @@
     font-weight: 400;
 }
 
+@media (width < 1000px) {
+    .home .full{
+        display: none;
+    }
+
+    .home{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
