@@ -8,9 +8,8 @@ import { useState } from "react";
 
 
 function App() {
-
   const [lightMode, setLightMode] = useState(false);
-  const scrollToSection = (sectionId: string) => {
+  const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });

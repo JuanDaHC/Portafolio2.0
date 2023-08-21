@@ -82,7 +82,7 @@ const Services = () => {
           </div>
         </article>
         <article className={styles.cards}>
-          <div className={`${styles.card} ${styles.blue}`}></div>
+          <div className={`${styles.card} ${styles.blue}`}>Development of specific solutions for your modern web applications.</div>
           <div className={`${styles.card} ${styles.blue}`}></div>
           <div className={`${styles.card} ${styles.blue}`}></div>
         </article>
