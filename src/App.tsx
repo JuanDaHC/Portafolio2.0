@@ -5,6 +5,7 @@ import Projects from "./views/projects/Projects";
 import Services from "./views/services/Services";
 import Redes from "./components/redes/Redes";
 import { useState } from "react";
+import About from "./views/about/About";
 
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
       </div>
       <div id="services" className="section">
         <Services />
+      </div>
+
+      <div id="about" className="section">
+        <About />
       </div>
       <Redes />
     </main>

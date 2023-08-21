@@ -70,7 +70,7 @@ const Tecnologies = [
 const Services = () => {
   return (
     <section className={styles.services}>
-      <span className="flex items-center">
+      <span className="flex items-center gap-1">
         <h2 className="text-2xl text-primary-color font-bold">Services</h2>
         <img className="w-7" src={arrow} alt="" />
       </span>

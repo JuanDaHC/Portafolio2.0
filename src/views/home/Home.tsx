@@ -26,12 +26,12 @@ const Home: React.FC = () => {
 
           <span className="flex justify-center items-center gap-1">
             <img className="w-5" src={share} alt="" />
-            <h5>25</h5>
+            <h5>83</h5>
           </span>
 
           <span className="flex justify-center items-center gap-1">
             <img className="w-5" src={pin} alt="" />
-            <h5>25</h5>
+            <h5>45</h5>
           </span>
         </div>
       </article>
