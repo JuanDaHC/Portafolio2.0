@@ -6,7 +6,7 @@ import moon from "../../assets/moon.svg";
 interface NavProps {
   lightMode: boolean;
   setLightMode: React.Dispatch<React.SetStateAction<boolean>>;
-  scrollToSection: React.Dispatch<React.SetStateAction<string>>;
+  scrollToSection: (sectionId: string) => void;
 }
 const Nav: React.FC<NavProps> = ({lightMode, setLightMode, scrollToSection}) => {
 
