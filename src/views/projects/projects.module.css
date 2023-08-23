@@ -93,3 +93,27 @@
   filter: invert(38%) sepia(73%) saturate(2534%) hue-rotate(187deg)
     brightness(102%) contrast(109%);
 }
+
+.cards .card{
+  view-timeline-name: --revealing-image;
+  view-timeline-axis: block;
+
+  animation-name: show;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+  animation-timeline: --revealing-image;
+
+  animation-range: entry 25% cover 50%;
+}
+
+@keyframes show {
+    from{
+        opacity: 0;
+        scale: 85%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}

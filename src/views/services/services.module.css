@@ -65,3 +65,27 @@
   filter: blur(1px);
   transform: scale(0.95, 0.95);
 }
+
+.services .svg, .card{
+  view-timeline-name: --revealing-image;
+  view-timeline-axis: block;
+
+  animation-name: show;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+  animation-timeline: --revealing-image;
+
+  animation-range: entry 25% cover 50%;
+}
+
+@keyframes show {
+    from{
+        opacity: 0;
+        scale: 70%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}

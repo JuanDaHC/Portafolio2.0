@@ -78,7 +78,7 @@ const Services = () => {
         <article className={styles.tecnology}>
           <div className={`${styles.tecno}`}>
             {Tecnologies.map((tecno, index) => (
-              <div className="w-14 flex flex-col justify-center items-center hover:animate-pulse animate-once" key={index}>
+              <div className={`${styles.svg} w-14 flex flex-col justify-center items-center hover:animate-pulse animate-once`} key={index}>
                 <img src={tecno.tecno} alt={tecno.name} />
                 <h6>{tecno.name}</h6> 
               </div>
