@@ -37,6 +37,8 @@
     font-weight: 400;
 }
 
+
+
 @media (width < 1000px) {
     .home .full{
         display: none;
