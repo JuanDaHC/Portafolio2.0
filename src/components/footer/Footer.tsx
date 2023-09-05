@@ -7,8 +7,8 @@ interface FooterProps {
 const Footer: React.FC<FooterProps> = ({lightMode}) => {
     return (
         <header className={`${styles.header} ${lightMode === true ? `${styles.white}` : `${styles.dark}`}`}>
-            <span className='font-bold'>Hecho Por JAMY - 2023</span>
-            <span className='font-bold'>Ayer Era Tarde</span>
+            <span className='font-bold'>Made By JAMY - 2023</span>
+            <span className='font-bold'>Yesterday Was Late</span>
         </header>
     )
 }
