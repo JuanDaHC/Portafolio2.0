@@ -18,7 +18,7 @@
 .projects .cards .card {
   position: relative;
   width: 300px;
-  height: auto;
+  height: 169px;
   border-radius: 8px;
 }
 .projects .cards .card:nth-child(2) {

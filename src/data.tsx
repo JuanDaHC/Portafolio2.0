@@ -7,6 +7,7 @@ import mui from "./assets/mui.png";
 import porta2 from "./assets/porta2.webp";
 import portafolio3 from "./assets/portafolio_da.webp";
 import portatailwind from "./assets/tailwind.webp";
+import guiajamy from "./assets/guia-jamy.webp";
 import html from "./assets/html.svg";
 import css from "./assets/css.svg";
 import js from "./assets/js.svg";
@@ -28,6 +29,16 @@ const cards = [
 
   {
     id: 2,
+    name: "GUIA-JAMY",
+    image: [guiajamy],
+    tecno: [html, css, js],
+    descrip: "TuDestino lives your dream vacations at the best prices.",
+    url: "https://minotauro18.github.io/blog/",
+    urlGithub: "https://github.com/MINOTAURO18/blog",
+  },
+
+  {
+    id: 3,
     name: "TuDestino",
     image: [tudestino],
     tecno: [html, css, js],
@@ -36,7 +47,7 @@ const cards = [
     urlGithub: "https://github.com/MINOTAURO18/TuDestino",
   },
   {
-    id: 3,
+    id: 4,
     name: "Template-Portafolio",
     image: [portatailwind],
     tecno: [react, tailwind, css],
@@ -49,7 +60,7 @@ const cards = [
 
   
   {
-    id: 4,
+    id: 5,
     name: "Template-Portafolio",
     image: [portafolio3],
     tecno: [html, css, js],
@@ -62,7 +73,7 @@ const cards = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Books",
     image: [books],
     tecno: [react, tailwind, css],
@@ -73,7 +84,7 @@ const cards = [
 
 
   {
-    id: 6,
+    id: 7,
     name: "Copia_MUI",
     image: [mui],
     tecno: [react, sass, css],
@@ -84,7 +95,7 @@ const cards = [
     youtubeUrl: "https://www.youtube.com/watch?v=YYG6sy8t-t8&t=6346s",
   },
   {
-    id: 7,
+    id: 8,
     name: "DominiosYa",
     image: [dominios],
     tecno: [html, css, js],
@@ -94,7 +105,7 @@ const cards = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: "Template-KFC",
     image: [kfc],
     tecno: [html, css],
@@ -104,7 +115,7 @@ const cards = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: "Template-Portafolio",
     image: [porta2],
     tecno: [html, css, js],

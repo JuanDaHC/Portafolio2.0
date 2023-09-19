@@ -34,6 +34,8 @@ function App() {
         <About lightMode={lightMode} />
       </div>
       <Redes />
+
+      
     </main>
   );
 }
