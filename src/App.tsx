@@ -19,9 +19,10 @@ function App() {
 
   return (
     <main className={`${lightMode ? "white" : "dark"}`}>
+      
       <Nav scrollToSection={scrollToSection} lightMode={lightMode} setLightMode={setLightMode} />
       <div id="home" className="section">
-        <Home />
+        <Home /> 
       </div>
       <div id="projects" className="section">
         <Projects />

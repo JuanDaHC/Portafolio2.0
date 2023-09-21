@@ -33,7 +33,7 @@ const cards = [
     image: [guiajamy],
     tecno: [html, css, js],
     descrip: "TuDestino lives your dream vacations at the best prices.",
-    url: "https://minotauro18.github.io/blog/",
+    url: "https://blog-minotauro18.vercel.app/",
     urlGithub: "https://github.com/MINOTAURO18/blog",
   },
 
