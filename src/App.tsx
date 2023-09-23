@@ -28,7 +28,7 @@ function App() {
         <Projects />
       </div>
       <div id="services" className="section">
-        <Services />
+        <Services lightMode={lightMode} />
       </div>
 
       <div id="about" className="section">

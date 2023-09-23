@@ -14,7 +14,9 @@ import code from "../../assets/code.svg";
 import desing from "../../assets/desing.svg";
 import web from "../../assets/web.svg";
 
-
+interface ServiceProps {
+  lightMode: boolean;
+}
 const Tecnologies = [
   {
     tecno: html,
@@ -67,7 +69,7 @@ const Tecnologies = [
   },
 ];
 
-const Services = () => {
+const Services: React.FC<ServiceProps> = ({lightMode}) => {
   return (
     <section className={styles.services}>
       <span className="flex items-center gap-1">
@@ -86,9 +88,9 @@ const Services = () => {
           </div>
         </article>
         <article className={`${styles.cards}`}>
-          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={code} alt="" /> <span>Development of specific solutions for your modern web applications.</span></div>
-          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={web} alt="" /> <span>Tailored technological projects expertly adapted to your specific needs.</span></div>
-          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={desing} alt="" /> <span>Ensuring responsive design for seamless experiences across all devices.</span></div>
+          <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`}`}> <img className="w-10" src={code} alt="" /> <span>Development of specific solutions for your modern web applications.</span></div>
+          <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`}`}> <img className="w-10" src={web} alt="" /> <span>Tailored technological projects expertly adapted to your specific needs.</span></div>
+          <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`} `}> <img className="w-10" src={desing} alt="" /> <span>Ensuring responsive design for seamless experiences across all devices.</span></div>
         </article>
       </div>
     </section>
