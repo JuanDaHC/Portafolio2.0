@@ -7,7 +7,8 @@ import mui from "./assets/mui.png";
 import porta2 from "./assets/porta2.webp";
 import portafolio3 from "./assets/portafolio_da.webp";
 import portatailwind from "./assets/tailwind.webp";
-import guiajamy from "./assets/guia-jamy.webp";
+import guiajamy from "./assets/guia-jamy.png";
+import jamypage from "./assets/jamypage.png";
 import html from "./assets/html.svg";
 import css from "./assets/css.svg";
 import js from "./assets/js.svg";
@@ -16,6 +17,16 @@ import tailwind from "./assets/tailwind.svg";
 import sass from "./assets/sass.svg";
 
 const cards = [
+  {
+    id: 11,
+    name: "JAMYPAGE",
+    image: [jamypage],
+    tecno: [react, css, tailwind],
+    descrip:
+      "in MundoDev you can find resources and articles about programming and technologies.",
+    url: "https://jamy-page.vercel.app/",
+    urlGithub: "https://github.com/MINOTAURO18/JamyPage",
+  },
   {
     id: 1,
     name: "MundoDev",
@@ -27,6 +38,18 @@ const cards = [
     urlGithub: "https://github.com/MINOTAURO18/MundoDev",
   },
 
+
+  {
+    id: 7,
+    name: "Copia_MUI",
+    image: [mui],
+    tecno: [react, sass, css],
+    descrip: "copy of the MUI home page",
+    url: "https://minotauro18.github.io/Copia-MUI/",
+    urlGithub: "https://github.com/MINOTAURO18/Copia-MUI",
+    youtube: true,
+    youtubeUrl: "https://www.youtube.com/watch?v=YYG6sy8t-t8&t=6346s",
+  },
   {
     id: 2,
     name: "GUIA-JAMY",
@@ -83,17 +106,6 @@ const cards = [
   },
 
 
-  {
-    id: 7,
-    name: "Copia_MUI",
-    image: [mui],
-    tecno: [react, sass, css],
-    descrip: "copy of the MUI home page",
-    url: "https://minotauro18.github.io/Copia-MUI/",
-    urlGithub: "https://github.com/MINOTAURO18/Copia-MUI",
-    youtube: true,
-    youtubeUrl: "https://www.youtube.com/watch?v=YYG6sy8t-t8&t=6346s",
-  },
   {
     id: 8,
     name: "DominiosYa",
