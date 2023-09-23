@@ -39,7 +39,8 @@
 }
 
 .cards .blue {
-  background-color: rgb(0, 145, 255);
+  backdrop-filter: blur(3rem) ;
+  background-color: rgba(0, 76, 134, 0.1);
 }
 
 .cards .card {

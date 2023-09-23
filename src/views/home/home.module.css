@@ -48,7 +48,7 @@ span.item {
     transform: rotate(90deg) skewX(-12deg);
     border-radius: 1.5rem;
     background: linear-gradient(45deg, #008697, rgb(0, 0, 119));
-    filter: blur(4rem);
+    filter: blur(5rem);
     opacity: 0.8;
     display: none;
     z-index:-1 ;
@@ -73,7 +73,7 @@ span.item {
     transform: rotate(50deg) skewX(-12deg);
     border-radius: 1.5rem;
     background: linear-gradient(45deg, #b002c7, rgb(0, 0, 119));
-    filter: blur(4rem);
+    filter: blur(6rem);
     opacity: 0.8;
     display: none;
     z-index:-1 ;
@@ -98,7 +98,7 @@ span.item {
     transform: rotate(90deg) skewX(-12deg);
     border-radius: 1.5rem;
     background: linear-gradient(45deg, #5801ca, rgb(139, 84, 0));
-    filter: blur(4rem);
+    filter: blur(6rem);
     opacity: 0.8;
     display: none;
     z-index:-1 ;
@@ -122,7 +122,7 @@ span.item {
     transform: rotate(90deg) skewX(-12deg);
     border-radius: 1.5rem;
     background: linear-gradient(45deg, #008697, rgb(0, 0, 119));
-    filter: blur(4rem);
+    filter: blur(5rem);
     opacity: 0.8;
     display: none;
     z-index:-1 ;
