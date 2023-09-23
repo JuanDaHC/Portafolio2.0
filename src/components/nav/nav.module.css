@@ -35,6 +35,78 @@
   cursor: pointer;
 }
 
+span.item {
+  position:absolute;
+  position: fixed;
+  top: 0px;
+  left: 10px;
+  width: 3rem;
+  height: 3rem;
+  transform: rotate(20deg) skewX(-12deg);
+  border-radius: 1.5rem;
+  background: linear-gradient(45deg, #008697, rgb(0, 0, 119));
+  filter: blur(1.8rem);
+  opacity: 0.8;
+  display: none;
+  z-index:-1 ;
+}
+
+@media (width > 200px) {
+  span.item {
+    right: 100px; 
+    opacity: 0.8; 
+    display: block; 
+  }
+}
+
+span.item2 {
+  position:absolute;
+  position: fixed;
+  top: 0px;
+  left: 40%;
+  width: 2.5rem;
+  height: 2.5rem;
+  transform: rotate(20deg) skewX(-12deg);
+  border-radius: 1.5rem;
+  background: linear-gradient(45deg, #5000b9, rgb(0, 69, 172));
+  filter: blur(1.5rem);
+  opacity: 0.8;
+  display: none;
+  z-index:-1 ;
+}
+
+@media (width > 200px) {
+  span.item2 {
+    right: 100px; 
+    opacity: 0.8; 
+    display: block; 
+  }
+}
+
+span.item3 {
+  position:absolute;
+  position: fixed;
+  top: 0px;
+  right: 10px;
+  width: 3rem;
+  height: 3rem;
+  transform: rotate(20deg) skewX(-12deg);
+  border-radius: 1.5rem;
+  background: linear-gradient(45deg, #008697, rgb(0, 0, 119));
+  filter: blur(1.8rem);
+  opacity: 0.8;
+  display: none;
+  z-index:-1 ;
+}
+
+@media (width > 200px) {
+  span.item3 {
+    right: 100px; 
+    opacity: 0.8; 
+    display: block; 
+  }
+}
+
 .menu .nav span {
   color: rgb(0, 145, 255);
 }

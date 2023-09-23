@@ -41,7 +41,11 @@ const Nav: React.FC<NavProps> = ({lightMode, setLightMode, scrollToSection}) => 
           <a onClick={() => scrollToSection('about')} className={`${styles.mobile}`}><img className="w-6" src={about} alt="" /></a>
             <img onClick={light} className="w-7" src={lightMode === false ? sun : moon} alt="sun" />
         </div>
+      <span className={styles.item}></span>
+      <span className={styles.item2}></span>
+      <span className={styles.item3}></span>
       </nav>
+
     </header>
   );
 };
