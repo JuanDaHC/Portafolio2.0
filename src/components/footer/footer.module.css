@@ -11,10 +11,8 @@
 }
 
 .white{
-    backdrop-filter: blur(10rem) ;
-  background-color: rgba(0, 85, 150, 0.1);
-    color: rgb(255, 255, 255);
-    transition: all 0.2s ease-in-out;
+  backdrop-filter: blur(3rem) ;
+  background-color: rgba(0, 134, 236, 0.8); 
   }
 
 @media (width < 500px) {

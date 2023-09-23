@@ -48,6 +48,11 @@
   background-color: rgba(0, 69, 122, 0.1);
 }
 
+.cards .white{
+  backdrop-filter: blur(3rem) ;
+  background-color: rgba(0, 134, 236, 0.8); 
+}
+
 .cards .card {
   display: flex;
   align-items: center;
