@@ -41,6 +41,10 @@ const Home: React.FC = () => {
         <Buttons url="https://drive.google.com/file/d/1fsLDnhIrlZqY1i3r2WeER9PSeKB9sj5X/view?usp=sharing" title="CV"/>
       </article>
       <AnimacionOne/>
+      <span className={styles.item}></span>
+      <span className={styles.item2}></span>
+      <span className={styles.item3}></span>
+      <span className={styles.item4}></span>
 
       <span className="w-4/12 lg:w-2/12 aspect-square bg-gradient-to-tr from-primary to-green-400 absolute -top-5 lg:left-0 rounded-full skew-y-12 blur-2xl opacity-40 skew-x-12 rotate-90 z-10"></span>
     </section>
