@@ -9,6 +9,7 @@ import portafolio3 from "./assets/portafolio_da.webp";
 import portatailwind from "./assets/tailwind.webp";
 import guiajamy from "./assets/guia-jamy.png";
 import jamypage from "./assets/jamypage.png";
+import newan from "./assets/newan.webp"
 import html from "./assets/html.svg";
 import css from "./assets/css.svg";
 import js from "./assets/js.svg";
@@ -37,7 +38,16 @@ const cards = [
     url: "https://minotauro18.github.io/MundoDev/",
     urlGithub: "https://github.com/MINOTAURO18/MundoDev",
   },
-
+  
+  {
+    id: 2,
+    name: "GUIA-JAMY",
+    image: [guiajamy],
+    tecno: [html, css, js],
+    descrip: "TuDestino lives your dream vacations at the best prices.",
+    url: "https://blog-minotauro18.vercel.app/",
+    urlGithub: "https://github.com/MINOTAURO18/blog",
+  },
 
   {
     id: 7,
@@ -50,16 +60,17 @@ const cards = [
     youtube: true,
     youtubeUrl: "https://www.youtube.com/watch?v=YYG6sy8t-t8&t=6346s",
   },
-  {
-    id: 2,
-    name: "GUIA-JAMY",
-    image: [guiajamy],
-    tecno: [html, css, js],
-    descrip: "TuDestino lives your dream vacations at the best prices.",
-    url: "https://blog-minotauro18.vercel.app/",
-    urlGithub: "https://github.com/MINOTAURO18/blog",
-  },
 
+  {
+    id: 12,
+    name: "Newan",
+    image: [newan],
+    tecno: [react, css, tailwind],
+    descrip:
+      "in MundoDev you can find resources and articles about programming and technologies.",
+    url: "https://barbershop-newan.vercel.app/",
+    urlGithub: "https://github.com/MINOTAURO18/Barbershop-Newan",
+  },
   {
     id: 3,
     name: "TuDestino",
