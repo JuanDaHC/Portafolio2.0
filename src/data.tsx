@@ -6,7 +6,6 @@ import kfc from "./assets/kfc.webp";
 import mui from "./assets/mui.png";
 import porta2 from "./assets/porta2.webp";
 import portafolio3 from "./assets/portafolio_da.webp";
-import portatailwind from "./assets/tailwind.webp";
 import guiajamy from "./assets/guia-jamy.png";
 import jamypage from "./assets/jamypage.png";
 import newan from "./assets/newan.webp"
@@ -16,8 +15,19 @@ import js from "./assets/js.svg";
 import react from "./assets/react.svg";
 import tailwind from "./assets/tailwind.svg";
 import sass from "./assets/sass.svg";
+import jamycommerce from "./assets/jamycommerce.png";
 
 const cards = [
+  {
+    id: 13,
+    name: "JamyEcommerce",
+    image: [jamycommerce],
+    tecno: [react, css, tailwind],
+    descrip:
+      "in MundoDev you can find resources and articles about programming and technologies.",
+    url: "https://ecommerce-sigma-teal.vercel.app/",
+    urlGithub: "https://github.com/MINOTAURO18/ecommerce",
+  },
   {
     id: 11,
     name: "JAMYPAGE",
@@ -80,17 +90,7 @@ const cards = [
     url: "https://minotauro18.github.io/TuDestino/",
     urlGithub: "https://github.com/MINOTAURO18/TuDestino",
   },
-  {
-    id: 4,
-    name: "Template-Portafolio",
-    image: [portatailwind],
-    tecno: [react, tailwind, css],
-    descrip: "Practice with React, State Management, Filters and Dark Mode.",
-    url: "#",
-    urlGithub: "https://github.com/MINOTAURO18/porta-tailwind",
-    youtube: true,
-    youtubeUrl: "https://www.youtube.com/watch?v=VmWCzcA5rrs&t=40s",
-  },
+  
 
   
   {
