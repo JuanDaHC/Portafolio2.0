@@ -46,7 +46,7 @@ const cards = [
     image: [mundodev],
     tecno: [react, js, css],
     descrip:
-      "in MundoDev you can find resources and articles about programming and technologies.",
+      "in MundoDev you can find resources and articles about programming.",
     url: "https://minotauro18.github.io/MundoDev/",
     urlGithub: "https://github.com/MINOTAURO18/MundoDev",
   },
@@ -79,7 +79,7 @@ const cards = [
     image: [newan],
     tecno: [react, css, tailwind],
     descrip:
-      "in MundoDev you can find resources and articles about programming and technologies.",
+      "At Newan Barber Shop, your style is our mission.",
     url: "https://barbershop-newan.vercel.app/",
     urlGithub: "https://github.com/MINOTAURO18/Barbershop-Newan",
   },

@@ -29,7 +29,7 @@ const Projects = () => {
                   {
                     card.tecno.map(tec => {
                       return(
-                        <img className="w-6" src={tec} alt="" />
+                        <img key={self.crypto.randomUUID()} className="w-6" src={tec} alt="" />
                       )
                     })
                   }
