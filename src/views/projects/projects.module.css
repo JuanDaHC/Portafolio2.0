@@ -57,12 +57,17 @@
   gap: 12px;
 }
 
+.details .parr{
+font-size: 10px;
+font-weight: 600;
+}
+
 .details h4 {
   font-weight: 600;
 }
 
 .card:hover > .details {
-  height: 5.5em;
+  height: 100%;
 }
 
 .details .links {

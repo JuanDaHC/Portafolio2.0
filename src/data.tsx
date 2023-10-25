@@ -15,6 +15,8 @@ import js from "./assets/js.svg";
 import react from "./assets/react.svg";
 import tailwind from "./assets/tailwind.svg";
 import sass from "./assets/sass.svg";
+import typ from "./assets/typ.svg";
+import astro from "./assets/astro.svg";
 import jamycommerce from "./assets/jamycommerce.png";
 
 const cards = [
@@ -22,7 +24,7 @@ const cards = [
     id: 13,
     name: "JamyEcommerce",
     image: [jamycommerce],
-    tecno: [react, css, tailwind],
+    tecno: [react, typ, css, tailwind],
     descrip:
       "in MundoDev you can find resources and articles about programming and technologies.",
     url: "https://ecommerce-sigma-teal.vercel.app/",
@@ -32,7 +34,7 @@ const cards = [
     id: 11,
     name: "JAMYPAGE",
     image: [jamypage],
-    tecno: [react, css, tailwind],
+    tecno: [astro, tailwind],
     descrip:
       "in MundoDev you can find resources and articles about programming and technologies.",
     url: "https://jamy-page.vercel.app/",
@@ -42,7 +44,7 @@ const cards = [
     id: 1,
     name: "MundoDev",
     image: [mundodev],
-    tecno: [react, css, tailwind],
+    tecno: [react, js, css],
     descrip:
       "in MundoDev you can find resources and articles about programming and technologies.",
     url: "https://minotauro18.github.io/MundoDev/",
@@ -53,7 +55,7 @@ const cards = [
     id: 2,
     name: "GUIA-JAMY",
     image: [guiajamy],
-    tecno: [html, css, js],
+    tecno: [astro, typ, tailwind],
     descrip: "TuDestino lives your dream vacations at the best prices.",
     url: "https://blog-minotauro18.vercel.app/",
     urlGithub: "https://github.com/MINOTAURO18/blog",
