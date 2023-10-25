@@ -26,7 +26,7 @@ const cards = [
     image: [jamycommerce],
     tecno: [react, typ, css, tailwind],
     descrip:
-      "in MundoDev you can find resources and articles about programming and technologies.",
+      "Technology ecommerce with shopping cart functionalities and dynamic routes.",
     url: "https://ecommerce-sigma-teal.vercel.app/",
     urlGithub: "https://github.com/MINOTAURO18/ecommerce",
   },
@@ -36,8 +36,8 @@ const cards = [
     image: [jamypage],
     tecno: [astro, tailwind],
     descrip:
-      "in MundoDev you can find resources and articles about programming and technologies.",
-    url: "https://jamy-page.vercel.app/",
+      "Contribution created with astro, you can see my project on the astro platform.",
+    url: "https://astro.build/themes/details/jamypage/",
     urlGithub: "https://github.com/MINOTAURO18/JamyPage",
   },
   {
@@ -56,7 +56,7 @@ const cards = [
     name: "GUIA-JAMY",
     image: [guiajamy],
     tecno: [astro, typ, tailwind],
-    descrip: "TuDestino lives your dream vacations at the best prices.",
+    descrip: "a place where you can find the best programming resources.",
     url: "https://blog-minotauro18.vercel.app/",
     urlGithub: "https://github.com/MINOTAURO18/blog",
   },
@@ -134,7 +134,7 @@ const cards = [
     name: "Template-KFC",
     image: [kfc],
     tecno: [html, css],
-    descrip: "Practice with React, State Management, Filters and Dark Mode.",
+    descrip: "template created with html and css, responsive practice.",
     url: "https://minotauro18.github.io/KFC/",
     urlGithub: "https://github.com/MINOTAURO18/KFC",
   },

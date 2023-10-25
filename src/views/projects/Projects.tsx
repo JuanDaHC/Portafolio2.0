@@ -25,6 +25,15 @@ const Projects = () => {
               <span className={styles.details}>
                 <h4>{card.name}</h4>
                 <p className={`${styles.parr}`}>{card.descrip}</p>
+                <div className="flex justify-center items-center gap-2">
+                  {
+                    card.tecno.map(tec => {
+                      return(
+                        <img className="w-6" src={tec} alt="" />
+                      )
+                    })
+                  }
+                </div>
                 <div className={styles.links}>
                   <a target="_blank" href={card.urlGithub}><img src={github} alt="" /></a>
                   <a target="_blank" href={card.url}><img src={url} alt="" /></a>
