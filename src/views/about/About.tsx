@@ -4,7 +4,7 @@ import arrow from "../../assets/arrow.svg";
 import pin from "../../assets/pin.svg";
 import message from "../../assets/message.svg";
 import share from "../../assets/share.svg";
-import alex from "../../assets/alex.webp";
+import grupo from "../../assets/alex.webp";
 import AnimationTwo from "../../components/animations/animationTwo/AnimationTwo";
 import Footer from "../../components/footer/Footer";
 
@@ -24,16 +24,13 @@ const About: React.FC<AboutProps> = ({lightMode}) => {
           <img
             className={`${styles.img} z-10 m-auto hover:animate-jump animate-once
 `}
-            src={alex}
+            src={grupo}
             alt=""
           />
           <p>
-            Hello, My name is John Alexander Muñoz Yepez. I love technology and
-            sports, the latter is where I acquired my discipline and
-            perseverance, as I believe that sports are the most effective way to
-            develop these qualities.
+          Ximil Technologies se ha dedicado a proveer servicios relacionados con la web. Proveemos consultoría e implementación para infraestructuras basadas en la nube, y proyectos de desarrollo de operaciones, incluyendo diseño, desarrollo, aseguramiento y optimización de aplicaciones web y móviles.
           </p>
-          <span className="text-primary-color">From:Jamy_10011</span>
+          <span className="text-primary-color">From:Juan Herrera</span>
           <div className="flex gap-3">
             <span className="flex justify-center items-center gap-1">
               <img className="w-5" src={message} alt="" />
@@ -53,24 +50,21 @@ const About: React.FC<AboutProps> = ({lightMode}) => {
         </article>
         <article className={styles.cards}>
           <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`}`}>
-            <p className={styles.tip}>Udemy</p>
-            <p className={styles.secondText}>React, Node.js, Javascript</p>
+            <p className={styles.tip}>Gerentes de Proyectos</p>
+            <p className={styles.secondText}>Ingenieros certificados como PMP del PMI</p>
           </div>
 
           <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`}`}>
-            <p className={styles.tip}>Universidad Of Antioquia</p>
-            <p className={styles.secondText}>in progress</p>
+            <p className={styles.tip}>Desarrolladores Senior</p>
+            <p className={styles.secondText}>Desarrolladores con experiencia profesional de más de 10 años</p>
           </div>
 
           <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`}`}>
-            <p className={styles.tip}>Frecodecamp</p>
-            <p className={styles.secondText}>HTML, CSS, SASS</p>
+            <p className={styles.tip}>Diseñadores gráficos</p>
+            <p className={styles.secondText}>Diseñadores con más de 10 años de experiencia</p>
           </div>
 
-          <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`}`}>
-            <p className={styles.tip}>OpenBootcamp</p>
-            <p className={styles.secondText}>Python, SQL</p>
-          </div> 
+          
         </article>
       </div>
       <Footer  lightMode={lightMode} />

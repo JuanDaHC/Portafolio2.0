@@ -1,4 +1,4 @@
-.redes {
+  .redes {
   position: absolute;
   position: fixed;
   left: 0;
@@ -8,7 +8,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
-}
+  }
 
 .redes a {
   display: flex;
@@ -24,14 +24,6 @@
   filter: invert(99%) sepia(31%) saturate(2%) hue-rotate(206deg) brightness(114%) contrast(100%);
 }
 
-.redes .linkedin {
-  background-color: blue;
-}
-
-.redes .github {
-  background-color: rgb(24, 22, 22);
-}
-
 .redes .youtube {
   background-color: #FF0000;
 }
@@ -39,7 +31,6 @@
 .redes .instagram {
     background: linear-gradient(45deg, #833AB4, #FD1D1D, #F56040);
 }
-
 
 .redes a:hover{
     width: 85px;

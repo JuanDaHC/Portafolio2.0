@@ -88,9 +88,10 @@ const Services: React.FC<ServiceProps> = ({lightMode}) => {
           </div>
         </article>
         <article className={`${styles.cards}`}>
-          <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`}`}> <img className="w-10" src={code} alt="" /> <span>Development of specific solutions for your modern web applications.</span></div>
-          <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`}`}> <img className="w-10" src={web} alt="" /> <span>Tailored technological projects expertly adapted to your specific needs.</span></div>
-          <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`} `}> <img className="w-10" src={desing} alt="" /> <span>Ensuring responsive design for seamless experiences across all devices.</span></div>
+          <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`}`}> <img className="w-10" src={code} alt="" /> <span>Sistema de gestión documental en la nube, con manejo de correspondencia, atención al ciudadano, workflow, auditoría, etc.</span></div>
+          <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`}`}> <img className="w-10" src={web} alt="" /> <span>Sistema de almacenamiento de archivos que permite a las empresas almacenar, gestionar y controlar sus archivos de forma sencilla.</span></div>
+          <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`} `}> <img className="w-10" src={desing} alt="" /> <span>Aplicaciones con alta disponibilidad, Autoescalamiento, Integración Continua, Almacenamiento y backups y Serverless</span></div>
+          <div className={`${styles.card} ${lightMode ? `${styles.white}` : `${styles.blue}`} `}> <img className="w-10" src={desing} alt="" /> <span>En tres etapas llevamos acabo la definición, prototipo e implementación del producto mínimo viable para su empresa</span></div>
         </article>
       </div>
     </section>

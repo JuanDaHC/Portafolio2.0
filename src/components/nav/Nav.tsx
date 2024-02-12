@@ -20,7 +20,7 @@ const Nav: React.FC<NavProps> = ({lightMode, setLightMode, scrollToSection}) => 
   return (
     <header className={`${styles.menu} ${lightMode === true ? styles.white : styles.dark} `}>
       <nav className={styles.nav}>
-        <h1 className={styles.logo}>JAMY</h1>
+        <h1 className={styles.logo}>Ximil</h1>
         <div className={ `${styles.nave} flex gap-8 font-bold text-lg` }>
           <a onClick={() => scrollToSection('home')}>
             <span>H</span>ome

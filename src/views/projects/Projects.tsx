@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <section className={styles.projects}>  
       <span className="flex  items-center gap-1">
-        <h2 className="text-2xl text-primary-color font-bold">Projects</h2>
+        <h2 className="text-2xl text-primary-color font-bold">Portafolio</h2>
         <img className="w-7" src={arrow} alt="flecha" />
       </span>
 
@@ -35,7 +35,6 @@ const Projects = () => {
                   }
                 </div>
                 <div className={styles.links}>
-                  <a target="_blank" href={card.urlGithub}><img src={github} alt="" /></a>
                   <a target="_blank" href={card.url}><img src={url} alt="" /></a>
                   {
 

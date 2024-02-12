@@ -9,6 +9,8 @@ import About from "./views/about/About";
 
 
 function App() {
+
+
   const [lightMode, setLightMode] = useState(false);
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
@@ -18,6 +20,8 @@ function App() {
   };
 
   return (
+    
+    
     <main className={`${lightMode ? "white" : "dark"}`}>
       
       <Nav scrollToSection={scrollToSection} lightMode={lightMode} setLightMode={setLightMode} />
@@ -39,6 +43,7 @@ function App() {
       
     </main>
   );
+
 }
 
 export default App;
