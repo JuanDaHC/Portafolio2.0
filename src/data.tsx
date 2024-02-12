@@ -49,15 +49,7 @@ const cards = [
     url: "https://udearroba.udea.edu.co/",
   },
 
-  {
-    id: 7,
-    name: "KPI Estudios",
-    image: [kpi],
-    tecno: [react, sass, css],
-    descrip: "Implementación de MVP para validación de archivos de datos.",
-    url: "https://www.kpiestudios.com",
-
-  },
+ 
 
 ];
 
